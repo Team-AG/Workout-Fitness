@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Your Fitness Tracker</title>
+</head>
+
+<body>
+  <nav>
+    <h4><a href="/">Fitness Tracker</a></h4>
+    <a href="stats.html">Dashboard</a>
+  </nav>
+  <div class="wrapper  workout">
+    <header>
+      <h1>DO YOU EVEN LIFT BRO</h1>
+    </header>
+    <div class="ui container workout">
+      <div class="ui raised card m-auto">
+        <div class="prev-workout">
+          <h3>Last Workout</h3>
+          <div>
+            <div class="workout-stats"></div>
+            <div class="buttons">
+              <a id="continue-btn" href="exercise.html" class="huge ui white button">Do You Even Lift Bro</a>
+              <a href="exercise.html" class="huge black  ui button">New Workouts</a>
+            </div>
+          </div>
+        </div>
+        <div class="new-workout">
+          <h3>Create Your First Workout</h3>
+        </div>
+        <h1>FITNESS 2021</h1>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  <div id="toast">
+    Workout Added Successfully!
+  </div>
+  <script src="/api.js"></script>
+  <script src="/workout.js"></script>
+  <script src="/index.js"></script>
+</body>
+
+</html>
